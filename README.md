@@ -40,6 +40,8 @@ HTML5 & CSS3	Arayüz
 JavaScript	Dinamik bileşenler
 
 📷 Ekran Görüntüleri
+<br>
+
 <img width="251" height="557" alt="image" src="https://github.com/user-attachments/assets/c7e36709-9b03-4767-8500-35188617378e" />
 <br>
 <a href="https://oweb-menu.store/menus/Pass/opening.html">Görüntülemek için tıklayın.</a>
