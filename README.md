@@ -41,15 +41,27 @@ JavaScript	Dinamik bileşenler
 
 📷 Ekran Görüntüleri
 <img width="251" height="557" alt="image" src="https://github.com/user-attachments/assets/c7e36709-9b03-4767-8500-35188617378e" />
+<br>
 <a href="https://oweb-menu.store/menus/Pass/opening.html">Görüntülemek için tıklayın.</a>
+<br>
+
 <img width="260" height="557" alt="image" src="https://github.com/user-attachments/assets/cbae06cd-7fdc-4d5d-a92e-fe78affe4472" />
+<br>
+
 <a href="https://oweb-menu.store/menus/Fiskkos/Menu-Template.html">Görüntülemek için tıklayın.</a>
+<br>
+
 <img width="256" height="558" alt="image" src="https://github.com/user-attachments/assets/f6fba1de-1d4b-44c0-b2dd-fdf15d85b704" />
+<br>
+
 <a href="https://oweb-menu.store/menus/RefikUstaWaffles/Menu-Template.html">Görüntülemek için tıklayın.</a>
+<br>
+
 <img width="255" height="561" alt="image" src="https://github.com/user-attachments/assets/bb1ac916-2088-4bb9-870d-6947a18cbf58" />
+<br>
+
 <a href="https://oweb-menu.store/menus/StellaLounge/Menu-Template.html">Görüntülemek için tıklayın.</a>
-
-
+<br>
 
 
 
@@ -61,23 +73,6 @@ Bu platformun temel amacı:
 ✔ Değişiklikleri anında müşteriye yansıtmak
 ✔ Çok dilli turistik işletmeler için tek tıkla menü sunmak
 ✔ İşletmelere modern bir dijital menü hizmeti sağlamak
-
-⚙️ Kurulum
-
-Projeyi klonlayın:
-
-git clone https://github.com/KULLANICI/REPO.git
-
-
-config.php içerisindeki veritabanı bilgilerini düzenleyin.
-
-SQL dosyasını MySQL’e import edin.
-
-Sunucuya yükleyin (Apache / Nginx).
-
-Tarayıcıdan erişin:
-
-http://localhost/qrmenu
 
 📦 Özelleştirme
 
@@ -91,7 +86,7 @@ Abonelik sistemi kolayca entegre edilebilir
 
 🌐 Demo / Canlı Yayın
 
-(Linki verirsen buraya düzgün şekilde eklerim.)
+oweb-menu.store
 
 📩 İletişim
 
