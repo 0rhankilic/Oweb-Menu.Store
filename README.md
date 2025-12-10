@@ -90,7 +90,6 @@ Abonelik sistemi kolayca entegre edilebilir
 
 oweb-menu.store
 
-📩 İletişim
 
-Her türlü soru, geliştirme isteği ve destek talepleri için:
-📧 youremail@example.com
+
+
