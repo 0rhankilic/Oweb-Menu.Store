@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <title>Oweb Menü Sistemleri</title>
+</head>
+
+<body>
+    <style>
+        * {
+            background-color: rgb(22, 21, 21);
+            color: white;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+        }
+        
+        .desc {
+            display: flex;
+            width: 90vw;
+            height: 30vw;
+        }
+
+        .desc h1 {
+            font-size: 10vw;
+            margin-top: 3vw;
+            margin-left: 3vw;
+        }
+
+        .desc p {
+            font-size: 1.2vw;
+            margin-top: 10vw;
+            margin-left: 10vw;
+        }
+
+        .desc button {
+            font-size: 1.2vw;
+            margin-top: 0vw;
+            margin-left: 10vw;
+            border-radius: 1.5vw;
+            padding: 0.7vw;          
+        }
+        #btn2{
+            margin-left: 1vw;
+        }
+        a{
+            color: rgba(240, 255, 255, 0);
+        }
+
+        @media (max-width: 768px){
+        .desc {
+            display: block;
+            width: 90vw;
+            height: 30vw;
+        }
+
+        .desc h1 {
+            font-size: 17vw;
+            margin-top: 2vw;
+            margin-left: 3vw;
+        }
+
+        .desc p {
+            font-size: 4vw;
+            margin-top: 0vw;
+            margin-left: 8vw;
+        }
+
+        .desc button {
+            font-size: 5.2vw;
+            margin-top: 12vw;
+            margin-left: 15vw;
+            border-radius: 10vw;
+            padding: 1.5vw 3vw 1.5vw 3vw;          
+        }
+        #btn2{
+            margin-left: 3vw;
+        }
+        a{
+            color: rgba(240, 255, 255, 0);
+        }
+
+        }
+
+        .refs{
+            margin-top: 20vw;
+            margin-left: 3vw;
+            margin-bottom: 10vw;
+        }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;           
+            gap: 1vw;    
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;           
+            gap: 2vw; 
+        }
+        .refcard{
+            width: 18vw;
+            height: 24vw;
+            background-color: rgba(102, 102, 102, 0.415);
+            border-radius: 1vw;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            transition: background-color 0.3s ease;
+            
+        }
+        .refcard h3, p{
+            margin-top: 0vw;
+            background-color: rgba(102, 102, 102, 0);
+            margin-left: 1vw;
+        }
+        .refcard p {
+            margin-top: -1.4vw;
+            font-size: 1vw;
+        }
+        .refcard img{
+            width: 18vw;
+            border-radius: 1vw;
+        }
+        .right p {
+            background-color: #25d36500;
+        }
+        .refcard:hover{
+            background-color: rgba(102, 102, 102, 0.981);
+        
+        }
+
+        @media (max-width: 480px)
+        {
+            .refs{
+                margin-top: 160vw;
+            }
+            .cards{
+            display: flex;
+            flex-wrap: wrap;           
+            gap: 4vw;    
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            }
+            .refcard{
+            width: 35vw;
+            height: 53vw;
+            background-color: rgba(102, 102, 102, 0.415);
+            border-radius: 3vw;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            transition: background-color 0.3s ease;
+            
+        }
+        .refcard h3, p{
+            margin-top: 0vw;
+            background-color: rgba(102, 102, 102, 0);
+            margin-left: 1vw;
+        }
+        .refcard p {
+            margin-top: -2vw;
+            font-size: 3vw;
+            margin-top: -3vw;
+        }
+        .refcard h3{
+            font-size: 4vw;
+        }
+        .refcard img{
+            width: 35vw;
+            border-radius: 3vw;
+        }
+        .right p {
+            background-color: #25d36500;
+        }
+        .refcard:hover{
+            background-color: rgba(102, 102, 102, 0.981);
+        
+        }
+      
+        
+        }
+        
+    </style>
+    <div class="main-content">
+        <div class="desc">
+            <h1>
+                OWEB Menü Sistemleri
+            </h1>
+            <div class="right">
+                <p>
+                    Oweb Menü, restoran, kafe ve otel işletmeleri için modern, temassız ve kolay erişilebilir QR menü
+                    çözümleri sunar. Müşterilerinize sadece bir QR kodla dijital menünüzü sunarak hem hijyenik hem
+                    çevreci bir deneyim yaşatabilirsiniz. Web tabanlı sistemimiz sayesinde menünüzü dilediğiniz zaman
+                    kolayca güncelleyebilir, fiyat ve içerik değişikliklerini anında yansıtabilirsiniz. Oweb Menü,
+                    kullanıcı dostu arayüzü ve mobil uyumlu tasarımıyla işletmenizin dijital dönüşümünü hızlandırır.
+                    Hemen bugün QR menüye geçin, işletmenizi bir adım öne taşıyın!
+                </p>
+                <a href="https://wa.me/905305244166?text=Merhaba,%20OWEB%20Menü%20Sistemleri%20hakkında%20bilgi%20almak%20istiyorum.">
+                <button style="background-color: #25D366; color: white; border: none; cursor: pointer;">
+                Whatsapp
+                </button>
+                </a>
+                <a href="https://www.instagram.com/orhankilc_">
+                <button id="btn2" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #961180); animation: gradientShift 5s ease infinite;  color: white; border: none; cursor: pointer;">
+                Instagram
+                </button>
+                </a>
+            </div>
+            <div class="ref">
+               
+        </div>
+        
+        <div class="iletisim">
+        
+            
+        </div>
+    </div>
+    <div class="refs">
+        <a href="https://oweb-menu.store/menus/Fiskkos/Menu-Template.html">
+        <h2>Referanslarımız</h2>
+                <div class="cards">
+                    <div class="refcard">
+            <img src="fisskos.png" alt="">
+            <h3>Fiskkos Lounge</h3>
+            <p>
+                Bizi tercih ettiğiniz için teşekkürler.
+            </p>
+        </div>
+        </a>
+        <a href="https://oweb-menu.store/menus/Pass/opening.html">
+        <div class="refcard">
+            <img src="pass.png" alt="">
+            <h3>Pass Mocktails</h3>
+            <p>
+                Bizi tercih ettiğiniz için teşekkürler.
+            </p>
+        </div>
+        </a>
+        <a href="https://oweb-menu.store/menus/RefikUstaWaffles/opening.html">
+        <div class="refcard">
+            <img src="refik.jpg" alt="">
+            <h3>Refik Usta</h3>
+            <p>
+                Bizi tercih ettiğiniz için teşekkürler.
+            </p>
+        </div>
+        </a>
+        <a href="https://oweb-menu.store/menus/StellaLounge/Menu-Template.html">
+        <div class="refcard">
+            <img src="stella.png" alt="">
+            <h3>Stella Lounge</h3>
+            <p>
+                Bizi tercih ettiğiniz için teşekkürler.
+            </p>
+        </div>
+        </a>
+        </div>
+    </div>
+            <p id="uyari" style="display: flex; font-size: 1.5vw; align-items: center; justify-content: center; margin-left: 3vw; color: rgba(164, 164, 164, 0.448);">Tüm menülerimiz sadece mobil cihazlarla uyumlu çalışır.</p>
+ 
+
+</body>
+</html>
